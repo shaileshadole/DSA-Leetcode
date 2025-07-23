@@ -3,7 +3,7 @@ My solutions of Leetcode Problems
 
 # 💻 LeetCode & DSA Solutions
 
-Welcome to my personal repository of Data Structures and Algorithms (DSA) problems solved on platforms like **LeetCode**, **GFG**, and **Codeforces**. The primary language used here is **Java**, but some solutions may also be in **C++** and **Python**.
+Welcome to my personal repository of Data Structures and Algorithms (DSA) problems solved on platform **LeetCode**. The primary language used here is **Java**. This are my personal solutions, meant for learning and revision.
 
 ---
 
@@ -13,14 +13,6 @@ Track my daily progress and maintain consistency through this GitHub repo.
 
 ---
 
-## 📂 Folder Structure
-
-
-dsa-solutions/ ├── Arrays/ │ ├── TwoSum.java │ └── MergeSortedArray.java ├── Strings/ │ ├── ValidPalindrome.java ├── LinkedLists/ │ ├── ReverseLinkedList.java ├── Trees/ │ └── InorderTraversal.java ├── README.md
-yaml
-CopyEdit
-
----
 
 ## ✨ Topics Covered
 
@@ -40,8 +32,6 @@ CopyEdit
 ## 🔧 Languages Used
 
 - ☕ Java (Primary)
-- 🐍 Python
-- 💠 C++
 
 ---
 
@@ -63,8 +53,8 @@ You can:
 
 ## 🚀 Let's Connect
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/yourprofile)
-- ✉️ Email: yourname@example.com
+- 🌐 [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/shailesh-adole-01306a303/))
+- ✉️ Email: adole2@gmail.com
 
 ---
 
