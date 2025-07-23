@@ -53,8 +53,8 @@ You can:
 
 ## 🚀 Let's Connect
 
-- 🌐 [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/shailesh-adole-01306a303/))
-- ✉️ Email: adole2@gmail.com
+- 🌐 [LinkedIn](https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/shailesh-adole-01306a303/)
+- ✉️ Email: adoleshailesh2@gmail.com
 
 ---
 
