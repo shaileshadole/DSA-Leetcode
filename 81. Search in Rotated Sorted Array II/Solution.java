@@ -1,5 +1,5 @@
-public class Solution2{
-    
+class Solution {
+
     public static boolean bs(int[] nums, int start, int end, int target){
         boolean ans = false;
 
@@ -20,14 +20,19 @@ public class Solution2{
     }
     
     
-    public static boolean solve(int[] nums, int target){
+    public boolean search(int[] nums, int target){
         
         int start = 0;
         int end = nums.length - 1;
 
-
         while(start <= end){
             int mid = start + (end - start)/2;
+
+            // Trim duplicates from both sides
+            while(start < mid && nums[start] == nums[mid] && nums[mid] == nums[end]){
+                start++;
+                end--;
+            }
 
             //Left half is sorted
             if(nums[start] <= nums[mid]){
@@ -42,7 +47,7 @@ public class Solution2{
             }
 
             //Right half is sorted
-            if(nums[mid] <= nums[end]){
+            else if(nums[mid] <= nums[end]){
                 //Target present in the right half
                 if(nums[mid] <= target && target <= nums[end]){
                     return bs(nums, mid, end, target);
@@ -54,13 +59,6 @@ public class Solution2{
             }
         }
         
-        return -1;  
-    }
-    
-    public static void main(String[] args) {
-        
-        
-        int[] nums = {7, 8, 1, 2, 3, 4, 6};
-        System.out.println(solve(nums, 18)); 
+        return false;  
     }
 }
